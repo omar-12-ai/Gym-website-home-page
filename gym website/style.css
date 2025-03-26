@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: rgba(74, 74, 74, 0.5) url(images/back\ 2.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+nav{
+    display: flex;
+    padding: -2% 15px;
+    border-bottom: 3px solid orangered;
+}
+.logo{
+    margin-left: 5rem;
+    display: flex;
+}
+.logo img{
+    border-radius: 50%;
+    width: 4rem;
+}
+.logo h4{
+    color: #fff;
+    margin-top: 1.4rem;
+}
+.lin-k{
+    margin-top: 1rem;
+    padding-left: 25rem;
+}
+.lin-k a{
+    margin-left: 3rem;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+.btn{
+    margin-left: 7rem;
+    margin-top: 0.7rem;
+}
+.btn button{
+    padding: 7px 3rem;
+    border: none;
+    background: orangered;
+    border-radius: 8px;
+}
+.btn button:hover{
+    background: blue;
+}
+.btn button a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.content{
+    padding: 10rem 10rem;
+    display: flex;
+}
+.content .left{
+    margin-right: 3rem;
+}
+.content .left h1{
+    color: orangered;
+    font-size: 65px;
+    min-width: 50rem;
+}
+.content .left h3{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.left p{
+    font-size: 20px;
+    color: #fff;
+    max-width: 40rem;
+    margin-top: 1rem;
+}
+.sbtn{
+    margin-top: 2rem;
+}
+.content .sbtn button{
+    padding: 10px 2.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    background: orangered;
+}
+.sbtn button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sbtn button:hover{
+    background: blue;
+}
+.right{
+    margin-left: 2rem;
+}
+.wrapper{
+    background: #fff;
+    height: 45vh;
+    padding: 30px;
+    width: 25rem;
+    border-radius: 7px;
+
+}
+.wrapper h3{
+    text-align: center;
+    font-size: 27px;
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.inputs{
+    padding: 12px 17px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.inputs input{
+    padding: 8px 3rem;
+}
+.b-tn{
+    margin-left: 3.4rem;
+    margin-top: 1rem;
+}
+.b-tn button{
+    padding: 11px 5rem;
+    background: black;
+    border: none;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+}
+.b-tn button a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.b-tn button:hover{
+    background: orangered;
+}
+.reviews{
+    display: flex;
+    margin-top: 2rem;
+    background: #fffefe;
+    border-radius: 7px;
+    width: 42rem;
+}
+.reviews p{
+    color: black;
+    margin-left: 3rem;
+    margin-top: -0.1%;
+    border-right: 3px solid black;
+    padding: 10px 1rem;
+    font-weight: 570;
+}
